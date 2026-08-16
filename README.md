@@ -267,22 +267,6 @@ Pretrained checkpoints, full seed-controlled reproduction scripts, FLOPs and
 latency constraints, and the complete paper result table are planned follow-up
 work.
 
-## Citation
-
-If this code is useful in your research, please cite the NASMark paper. Replace
-the placeholder author and publication fields after the paper metadata is
-public:
-
-```bibtex
-@inproceedings{nasmark,
-  title     = {NASMark: Enabling Stable and Efficient Watermarking for
-               NAS-Generated Vision Models},
-  author    = {Anonymous Authors},
-  booktitle = {Network and Distributed System Security Symposium},
-  year      = {2027}
-}
-```
-
 ## License
 
 Released under the [MIT License](LICENSE).
