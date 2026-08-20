@@ -80,25 +80,3 @@ python -m unittest discover -s tests -v
 ```
 
 Additional options are available through `python <script>.py --help`.
-
-## Checkpoints
-
-The local `checkpoints/` directory may contain trained supernet and subnet
-weights. It is excluded from Git by default and is not required to inspect or
-reuse the source code.
-
-## Citation
-
-```bibtex
-@inproceedings{nasmark,
-  title     = {NASMark: Enabling Stable and Efficient Watermarking for
-               NAS-Generated Vision Models},
-  author    = {Anonymous Authors},
-  booktitle = {Network and Distributed System Security Symposium},
-  year      = {2027}
-}
-```
-
-## License
-
-Released under the [MIT License](LICENSE).
