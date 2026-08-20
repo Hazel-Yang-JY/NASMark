@@ -1,7 +1,7 @@
 # NASMark
 
 This repository provides an open-source implementation of **NASMark: Enabling
-Stable and Efficient Watermarking for NAS-Generated Vision Models**.
+Stable and Efficient Watermarking for NAS-Generated Visual Models**.
 
 The current release implements NASMark with an SPOS MobileNet search space on
 CIFAR-10. Watermark modules are inserted as residual branches and shared by all
@@ -21,9 +21,6 @@ The code is organized into three stages:
 2. Embed the trigger behavior into the supernet using the dedicated watermark
    class.
 3. Search the trained supernet and directly export a watermarked subnet.
-
-Architecture search does not call `recover()`, retrain the selected subnet, or
-embed the watermark again.
 
 ## Code structure
 
