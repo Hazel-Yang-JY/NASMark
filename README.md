@@ -8,10 +8,6 @@ CIFAR-10. Watermark modules are inserted as residual branches and shared by all
 candidate paths at the same searchable layer. Each module uses a
 `1x1 pointwise -> 3x3 depthwise -> 1x1 pointwise` structure.
 
-The implementation uses a dedicated eleventh output class for watermark
-queries. Normal CIFAR-10 samples use classes `0-9`, while watermark trigger
-samples use class `10`.
-
 ## Workflow
 
 The code is organized into three stages:
